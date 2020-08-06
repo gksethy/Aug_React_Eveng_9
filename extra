@@ -1,0 +1,95 @@
+https://code.visualstudio.com/
+https://github.com/
+https://nodejs.org/en/
+https://www.youtube.com/c/DeveloperFunnel/videos
+https://git-scm.com/downloads
+
+NPM
+React = 3
+React_hooks -1
+React-Redux =2
+React-JWT(Login Logut)-1
+React-Saga -1
+React-GarphQL 1
+Basic React Native=1
+----------------------
+Testing
+
+Depolyment
+-> MERN
+-> Docker
+-> Nginx
+
+Mock API
+json-server
+
+Github
+--------NOT--------------
+API
+GarphQL
+Login/Logout
+
+/////////////////////////////////
+SPA
+Single Page Application
+
+React is a javascript framework that help 
+to build single page Application using
+component based structre
+Open Source
+
+--------------------------------------
+Node Package Manager
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<
+JSON
+>javascript object notation
+Way to respresnt the data
+
+key:value
+[
+    {
+        rollno:1
+        name:"john",
+        class:"ui"
+    },
+    {
+        rollno:2
+        name:"Alvin",
+        class:"React",
+        city:"Newyork"
+    }
+]
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<
+Package.json
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<
+> Starting point to Application
+> help to manage Package
+> meta data
+> script 
+
+>>>>>>>>>>>>>>>>>
+Step to create package.json
+<<<<<<<<<<<<<<<<<
+**NodeJs must be installed in system
+> navigate to the folder using cmd
+> npm init
+> Answer all questions
+> type yes
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Packages
+Depedency
+node_modules
+
+>>>>>Local package
+>>>>>Global package
+
+>>>>>>>>>>>>>>>>>
+Step to install packages
+<<<<<<<<<<<<<<<<<
+**NodejS must be installed in system
+> navigate to folder
+> npm i packagename/npm install packagename
