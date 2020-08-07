@@ -4,7 +4,7 @@ https://nodejs.org/en/
 https://www.youtube.com/c/DeveloperFunnel/videos
 https://git-scm.com/downloads
 
-NPM
+NPM                             
 React = 3
 React_hooks -1
 React-Redux =2
@@ -12,7 +12,7 @@ React-JWT(Login Logut)-1
 React-Saga -1
 React-GarphQL 1
 Basic React Native=1
-----------------------
+-----------------------------
 Testing
 
 Depolyment
@@ -92,4 +92,62 @@ Step to install packages
 <<<<<<<<<<<<<<<<<
 **NodejS must be installed in system
 > navigate to folder
-> npm i packagename/npm install packagename
+> npm i packagename/npm install packagename/ npm i packagename --save
+
+
+>>>>>>
+LocalDependency
+>>Local to the folder
+>>Max package will be installed as LocalDependency
+
+<<<<<<<<<<<<<<<<<<
+GlobalDependency
+>>local to the system
+>>Need admin access to install GlobalDependency
+>>very few package will be installed Globally
+>>package that need to generate Application will be installed Globally
+
+>>>>Step to install global Depedency<<<<<
+#window
+> open your cmd as admin
+> npm i -g packagename
+
+#Mac/linux
+> open terminal
+> sudo npm i -g packagename
+
+>>>>Step to generate react app<<<<<
+#window
+{One Time}
+> open your cmd as admin
+> npm i -g create-react-app
+
+{Next All Time}
+>open cmd
+>navigate to folder where you want app
+>create-react-app myapp
+
+#Mac
+{One Time}
+> open terminal
+> sudo npm i -g create-react-app
+
+{Next All Time}
+>open terminal
+>navigate to folder where you want app
+>create-react-app myapp
+
+
+>>>>>>>>>>>>>>>>>>>><<<<<
+Step to start app
+<<<<<<<<<<<<<<
+>navigate to  app
+>npm start
+>localhost:3000
+
+
+>>>>>.
+basic javascript
+component
+firstcomponent
+event
