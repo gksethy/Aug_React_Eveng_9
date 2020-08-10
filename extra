@@ -151,3 +151,16 @@ basic javascript
 component
 firstcomponent
 event
+
+////////////////////////////////
+component
+////////////////////////Hooks component
+
+Functional                  ClassComponent
+dumb component              Logical component
+display view                logics/api call/lifecycle
+light in weight             Heavy 
+
+
+class                       Functional
+callApi    >>>>>Data>>>>>>  display data
