@@ -164,3 +164,14 @@ light in weight             Heavy
 
 class                       Functional
 callApi    >>>>>Data>>>>>>  display data
+
+State & Props
+state act like a local variable
+Props help to transfer the data
+
+Component A   ============================ Component B
+State                   Props              State
+
+
+parent==>> child
+child ==>> parent
