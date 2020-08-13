@@ -1,4 +1,5 @@
 import React,{Component} from 'react';
+import './Header.css';
 
 class Header extends Component{
     constructor(){
@@ -9,33 +10,24 @@ class Header extends Component{
             keyword:'User Text Here'
         }
     }
+    handleChange = (event) => {
+        ///console.log(event.target.value)
+        this.setState({keyword:event.target.value?event.target.value:'User Text Here'})
+
+    }
     render(){
+        ///console.log("I am in render")
         return(
-            <React.Fragment>
-                <div>{this.state.title}</div>
+            <header>
+                <div className="logo">{this.state.title}</div>
                 <center>
-                    <input/>
+                    <input onChange={this.handleChange}/>
                     <p>{this.state.keyword}</p>
                 </center>
                 <hr/>
-            </React.Fragment>
+            </header>
         )
     }
 }
 
-
 export default Header;
-
-
-/*
-const Header = () => {
-    return(
-        <React.Fragment>
-            <center>
-                <h2>NareshIT</h2>
-            </center>
-            <hr/>
-        </React.Fragment>
-    )
-}
-*/

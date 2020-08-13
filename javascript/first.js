@@ -12,3 +12,15 @@ function add(a,b){
 
 //es6
 var add = (a,b) => {return a+b}
+
+const a = 10
+
+
+
+////ternory
+var a = 10
+a>10?"hiii":"bie"
+"bie"
+var a = 10
+a==10?"hiii":"bie"
+"hiii"
